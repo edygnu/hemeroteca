@@ -1,0 +1,86 @@
+header {
+    background-image: url("01.jpg");
+}
+
+h1 {
+
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 68px;
+    color: rgb(239, 239, 239);
+    text-shadow: -3px -3px 3px #333, 3px -3px 3px #333, -3px 3px 3px #333, 3px 3px 3px #333;
+}
+
+.col-3 img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+nav {
+
+    background-color: rgba(128, 128, 128, 0.705);
+    margin-bottom: 0;
+
+}
+
+nav ul {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li:hover {
+    color: rgba(21, 118, 197, 0.952);
+}
+
+nav ul li a:hover {
+    color: rgba(102, 184, 252, 0.952);
+}
+
+nav ul li a.active {
+    background-color: grey;
+}
+
+main {
+    top: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+main p {
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+
+.carousel-inner {
+    max-height: 450px;
+}
+
+footer {
+    background-color: #333;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    color: beige;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 25px;
+}
